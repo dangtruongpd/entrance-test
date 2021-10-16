@@ -1,0 +1,20 @@
+{
+    "name": "pc/entrace-test",
+    "description": "PHP website",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Truong Vo",
+            "email": "dangtruongpd@gmail.com"
+        }
+    ],
+    "require": {
+        "rakit/validation": "^1.4"
+    }
+}
